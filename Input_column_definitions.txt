@@ -1,0 +1,61 @@
+Column heading definitions for input xlsx file:
+Sample_ID : Unique alphanumeric sample identifier
+Age : Depositional age
+Depo_env : Depositional environment
+Latitude : Decimal degrees (WGS84)
+Longitude : Decimal degrees (WGS84)
+Location_approximate : 1 if location is approximate (e.g., taken from a study area map)
+Source_ID : Data source
+Qch_as_Qp : 1 if Qch is counted as Qp
+GaDi : 1 if Gazzi-Dickinson method of point counting was used
+Q_undiff : 1 if Q is reported as undifferentiated
+Raw_as_pct : 1 if raw data are reported as percentages
+Ternary_vals : 1 if raw data are reported are recalculated ternary proportions
+N : Number of point counts
+Q_QFL_EG : Q% (Q-F-L) using scheme of Garzanti (2019): Earth-Science Reviews
+F_QFL_EG : F% (Q-F-L) using scheme of Garzanti (2019): Earth-Science Reviews
+L_QFL_EG : L% (Q-F-L) using scheme of Garzanti (2019): Earth-Science Reviews
+Q_QFL_WD : Q% (Q-F-L) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+F_QFL_WD : Q% (Q-F-L) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+L_QFL_WD : Q% (Q-F-L) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+Qm_QmFLt_WD : Qm% (Qm-F-Lt) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+F_QmFLt_WD : F% (Qm-F-Lt) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+Lt_QmFLt_WD : Lt% (Qm-F-Lt) using scheme of Dickinson et al. (1983): Geological Society of America Bulletin
+Q_QFL_IJ : Q% (Q-F-L) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+F_QFL_IJ : F% (Q-F-L) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+L_QFL_IJ : L% (Q-F-L) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+Qm_QmQpQch_IJ : Qm% (Qm-Qp-Qch) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+Qp_QmQpQch_IJ : Qp% (Qm-Qp-Qch) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+Qch_QmQpQch_IJ : Qch% (Qm-Qp-Qch) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+Fk_FpFk_IJ : Fk% (Fk-Fp) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface
+Fp_FpFk_IJ : Fp% (Fk-Fp) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Lv_LvLsLm_IJ : Lv% (Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Ls_LvLsLm_IJ : Ls% (Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Lm_LvLsLm_IJ : Lm% (Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Qm_Great8_IJ : Qm% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Qp_Great8_IJ : Qp% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Qch_Great8_IJ : Qch% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Fk_Great8_IJ : Fk% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Fp_Great8_IJ : Fp% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Lv_Great8_IJ : Lv% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Ls_Great8_IJ : Ls% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Lm_Great8_IJ : Lm% (Qm-Qp-Qch-Fk-Fp-Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+FQ_QFL_IJ : ln(F/Q) (Q-F-L) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+LQ_QFL_IJ : ln(L/Q) (Q-F-L) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+QmQch_QmQpQch_IJ : ln(Qm/Qch) (Qm-Qp-Qch) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+QpQch_QmQpQch_IJ : ln(Qp/Qch) (Qm-Qp-Qch) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+FkFp_FpFk_IJ : ln(Fk/Fp) (Fp-Fk) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+LsLv_LvLsLm_IJ : ln(Ls/Lv) (Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+LmLv_LvLsLm_IJ : ln(Lm/Lv) (Lv-Ls-Lm) using scheme of Johnson et al. (in review): Journal of Geophysical Research: Earth Surface 
+Relief_AVG : Average topographic elevation (m)
+Area_sq_km : Area (square km)
+Pre_mm_AVG : Average precipitation (mm) (pre_mm_syr from BasinATLAS dataset)
+Tmp_dc_AVG : Average temperature (degrees C) (tmp_dc_syr_tempCorrected from BasinATLAS dataset)
+Slope_AVG : Average slope (degrees x10) (slp_dg_sav from BasinATLAS dataset)
+Lith_PYVAVI : Normalized proportion of catchment area that is PY+VA+VI (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_PAPI : Normalized proportion of catchment area that is PA+PI (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_VB : Normalized proportion of catchment area that is VB (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_PB : Normalized proportion of catchment area that is PB (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_EVSC : Normalized proportion of catchment area that is EV+SC (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_SMSSSU : Normalized proportion of catchment area that is SM+SS+SU (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
+Lith_MT : Normalized proportion of catchment area that is MT (0 to 1) (GLiM; Hartmann and Moosdorf (2012): Geochemistry, Geophysics, Geosystems)
