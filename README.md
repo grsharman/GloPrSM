@@ -14,4 +14,4 @@ J. Isaac Johnson, Glenn R. Sharman*, Eugene Szymanski, and Xiao Huang
 
 ## GloPrSM raster download
 
-Full resolution outputs (.tif files) may be downloaded from [Zenodo](doi:10.5281/zenodo.6471406)
+Full resolution outputs (.tif files) may be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.6471406).
